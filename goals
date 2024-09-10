@@ -1,0 +1,27 @@
+This repository is a dummy version of euclido.
+
+organization:
+1. super admin:
+	a. will have the access to everything.
+	b. delete the university.
+
+2. user:
+	a. can create a university.
+	b. will be the administrator of the university that he just created.
+
+3. university:
+	a. will have an administrator. admin of an university will have access to:
+		i.   delete university.
+		ii.  create departments.
+		iii. set admin of the departments.
+		iv.  remove departments.
+	b. will have a lot dpartments. One user can be an admin of multiple departments.
+
+4. departments:
+	a. a department will belong to an university.
+	b. department admin can be assigned by the admin of the university
+
+Following are the features that we want to implement:
+1. Setup of database and orm.
+
+2. Setup guards to customize the access of data.
